@@ -556,6 +556,15 @@
     text-align: start;
   }
 
+  .sm-btn{
+    background-color: #F159A2 !important;
+    padding: 10px 20px !important;
+    border-radius: 20px !important;
+    color: white !important;
+    position: relative !important;
+    top: 0px !important;
+  }
+
   body, .banner-area, .banner-area div {
     height: auto;
   }
