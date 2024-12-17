@@ -27,11 +27,13 @@
 
   /* Banner */
 
-  body, .banner-area, .banner-area div {
+  body,
+  .banner-area,
+  .banner-area div {
     height: auto;
   }
 
-  .banner-area .double-items, 
+  .banner-area .double-items,
   .banner-area .content {
     padding: 120px 0;
   }
@@ -273,7 +275,7 @@
     box-shadow: 0 0 10px #e7e7e7;
   }
 
-  .contact-us-area .contact-items > .row {
+  .contact-us-area .contact-items>.row {
     margin-left: 0;
     margin-right: 0;
   }
@@ -393,6 +395,7 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+
   /* Heading */
   h1 {
     font-size: 30px;
@@ -507,7 +510,7 @@
     margin-top: 20px;
   }
 
-  .breadcrumb-area .breadcrumb a, 
+  .breadcrumb-area .breadcrumb a,
   .breadcrumb-area .breadcrumb li {
     color: #ffffff;
   }
@@ -526,7 +529,7 @@
     display: none;
   }
 
-  nav .attr-nav > ul > li.contact {
+  nav .attr-nav>ul>li.contact {
     display: none;
   }
 
@@ -556,7 +559,7 @@
     text-align: start;
   }
 
-  .sm-btn{
+  .sm-btn {
     background-color: #F159A2 !important;
     padding: 10px 20px !important;
     border-radius: 20px !important;
@@ -565,7 +568,9 @@
     top: 0px !important;
   }
 
-  body, .banner-area, .banner-area div {
+  body,
+  .banner-area,
+  .banner-area div {
     height: auto;
   }
 
@@ -574,7 +579,7 @@
     overflow: hidden;
     /* padding: 50px 0; */
     padding: 24px 0;
-  
+
   }
 
   .banner-area .appoinment {
@@ -591,7 +596,12 @@
   }
 
   .banner-area.text-default h2 {
-    font-size: 36px;
+
+
+    font-size: 25px;
+    padding-top: 140px;
+    text-align: start;
+    padding-left: 27px;
   }
 
   .banner-area.inc-shape .content::after {
@@ -1017,7 +1027,7 @@
     margin-top: 5px;
   }
 
-  .blog-area .blog-content .post-tags, 
+  .blog-area .blog-content .post-tags,
   .blog-area .blog-content .share {
     display: block;
     text-align: center;
@@ -1062,7 +1072,7 @@
     padding-left: 0;
   }
 
-  .comments-list .commen-item .content, 
+  .comments-list .commen-item .content,
   .comments-list .commen-item .avatar {
     display: block;
     text-align: center;
@@ -1130,7 +1140,7 @@
     box-shadow: 0 0 10px #e7e7e7;
   }
 
-  .contact-us-area .contact-items > .row {
+  .contact-us-area .contact-items>.row {
     margin-left: 0;
     margin-right: 0;
   }
@@ -1203,7 +1213,7 @@
   }
 
   /* Blog */
-  .comments-list .commen-item .content, 
+  .comments-list .commen-item .content,
   .comments-list .commen-item .avatar {
     display: table-cell;
     text-align: left;

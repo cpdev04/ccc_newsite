@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+    .carousel-inner .info {
+        text-align: center; /* Center-align text for better mobile appearance */
+        padding: 20px; /* Add spacing around the text */
+    }
+
+    .carousel-inner h2 {
+        font-size: 1.5rem; /* Adjust h2 size for mobile */
+        line-height: 1.3; /* Improve readability */
+        margin-bottom: 10px; /* Add spacing between h2 and the next element */
+    }
+
+    .carousel-inner .mydeatils {
+        font-size: 1rem; /* Adjust paragraph (span) size */
+        line-height: 1.4; /* Improve text spacing */
+        display: block; /* Ensure text stays within bounds */
+        word-wrap: break-word; /* Break long words */
+        padding: 0px 30px;
+        text-align: tat;
+        text-align: start;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        font-size: 1.5rem; /* Adjust size of arrows */
+    }
+
+    .carousel-control-prev i,
+    .carousel-control-next i {
+        color: #0087a5; /* Match brand colors */
+    }
+
+    .col-lg-6.thumb {
+        margin-top: 0 !important; /* Remove negative margin */
+    }
+}

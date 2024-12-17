@@ -117,21 +117,24 @@ img {
 }
 
 .slider1{
-  background-image: url("assets/img/thumb/homebanner-0001.jpg");
-  background-size: cover;
+  background-image: url("assets/img/thumb/home-03.jpg");
+  background-size:cover;
   background-repeat: no-repeat;
   background-position: top center;
 
 }
 
-.slide2{
-  background-image: url("assets/img/thumb/home-003.jpg");
+.slider2{
+  background-image: url("assets/img/thumb/homebanner-01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
-
-
 }
+
+.carousel-item {
+  transition: transform 2s ease-in-out !important; /* Smooth transition for slide effect */
+}
+
 /* hero section */
 
 label {
@@ -259,6 +262,19 @@ input {
   padding: 0 15px;
   margin: auto;
   max-width: 1400px;
+}
+
+
+@media (max-width:448px) {
+ 
+
+
+
+   
+   
+  
+
+    
 }
 
 @media (min-width:576px) {
