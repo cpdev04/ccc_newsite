@@ -137,6 +137,12 @@ img {
 
 /* hero section */
 
+/* our story */
+.pd-cust{
+  padding-bottom: 180px;
+}
+/* our story */
+
 label {
   display: inline-block;
   font-weight: normal;
@@ -265,17 +271,7 @@ input {
 }
 
 
-@media (max-width:448px) {
- 
 
-
-
-   
-   
-  
-
-    
-}
 
 @media (min-width:576px) {
   .container-medium {

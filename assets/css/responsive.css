@@ -395,7 +395,9 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
-
+.pd-cust{
+padding-bottom: 0px;
+}
   /* Heading */
   h1 {
     font-size: 30px;
